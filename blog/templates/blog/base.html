@@ -10,7 +10,7 @@
 <body>
     <div class="page-header">
         {% if user.is_authenticated %}
-        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        <a href="{% url 'post_new' %}" class="top-menu">Написать пост</a>
         {% endif %}
         <h1><a href="/">Бложек Колясика</a></h1>
     </div>
@@ -22,5 +22,8 @@
             </div>
         </div>
     </div>
+    <footer class="mt-auto">
+        <p align="center">Design by Kolyasik.</p>
+    </footer>
 </body>
 </html>
